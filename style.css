@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.header .main-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header .main-navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header .main-navbar ul li{
+  padding: 12px;
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+.ms-products-wrapper{
+    display: flex;
+}
+.ms-products-wrapper .ms-product-card{
+    width: 25%;
+    margin: 5px;
+}
+.ms-product-card img{
+    width: 100%;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
